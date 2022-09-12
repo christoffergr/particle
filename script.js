@@ -1,7 +1,7 @@
 $(function () {
     var W, H,
         canvas, ctx, //ctx stands for context and is the "curso" of our canvas element.
-        particleCount = 2400,
+        particleCount = 3000,
         particles = []; //this is an array which will hold our particles Object/Class
 
     W = window.innerWidth ;
