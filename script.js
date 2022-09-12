@@ -1,13 +1,13 @@
 $(function () {
     var W, H,
         canvas, ctx, //ctx stands for context and is the "curso" of our canvas element.
-        particleCount = 3800,
+        particleCount = 2400,
         particles = []; //this is an array which will hold our particles Object/Class
 
     W = window.innerWidth ;
     H = window.innerHeight ;
     
-    canvas = $("#canvas2").get(0); //this "get(0) will pull the underlying non-jquery wrapped dom element from our selection
+    canvas = $("#red-particle").get(0); //this "get(0) will pull the underlying non-jquery wrapped dom element from our selection
     canvas.width = W;
     canvas.height = H;
 
@@ -45,7 +45,7 @@ $(function () {
         this.h=parseInt(0);
         this.s=parseInt(100);
         this.l=parseInt(40);
-        this.a=0.5*Math.random() ;
+        this.a=0.4*Math.random() ;
       
         this.color = "hsla("+ this.h +","+ this.s +"%,"+ this.l +"%,"+(this.a)+")";
         this.shadowcolor = "hsla("+ this.h +","+ this.s +"%,"+ this.l +"%,"+parseFloat(this.a-0.1)+")";
