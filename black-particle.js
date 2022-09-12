@@ -1,7 +1,7 @@
 $(function () {
     var W, H,
         canvas, ctx, 
-        particleCount = 2400,
+        particleCount = 3000,
         particles = [];
 
     W = window.innerWidth ;
