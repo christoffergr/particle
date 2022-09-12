@@ -1,4 +1,3 @@
-
 $(function () {
     var W, H,
         canvas, ctx, //ctx stands for context and is the "curso" of our canvas element.
@@ -44,9 +43,9 @@ $(function () {
     function Particle() {
         //using hsl is easier when we need particles with similar colors
         this.h=parseInt(0);
-        this.s=parseInt(0);
-        this.l=parseInt(0);
-        this.a=1*Math.random() ;
+        this.s=parseInt(100);
+        this.l=parseInt(40);
+        this.a=0.5*Math.random() ;
       
         this.color = "hsla("+ this.h +","+ this.s +"%,"+ this.l +"%,"+(this.a)+")";
         this.shadowcolor = "hsla("+ this.h +","+ this.s +"%,"+ this.l +"%,"+parseFloat(this.a-0.1)+")";
