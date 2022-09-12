@@ -7,7 +7,7 @@ $(function () {
     W = window.innerWidth ;
     H = window.innerHeight ;
     
-    canvas = $("#canvas").get(0); 
+    canvas = $("#blackparticle").get(0); 
     canvas.width = W;
     canvas.height = H;
 
