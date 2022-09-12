@@ -1,6 +1,4 @@
-//Dust Particles Simulation by bionicoz based on
-//Basic Particle Animation
-//Author: Brandon John-Freso
+
 $(function () {
     var W, H,
         canvas, ctx, //ctx stands for context and is the "curso" of our canvas element.
