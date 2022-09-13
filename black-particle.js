@@ -1,7 +1,7 @@
 $(function () {
     var W, H,
         canvas, ctx, 
-        particleCount = 3000,
+        particleCount = 2000,
         particles = [];
 
     W = window.innerWidth ;
@@ -49,8 +49,8 @@ $(function () {
         this.x = Math.random() * W;
         this.y = Math.random() * H;
         this.direction = {
-            "x": -1 + Math.random() * 2,
-            "y": -1 + Math.random() * 2
+            "x": -1 + Math.random() * 1,
+            "y": -1 + Math.random() * 1
         };
         
         this.radius = randomNorm(4,4);
