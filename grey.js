@@ -7,7 +7,7 @@ $(function () {
     W = window.innerWidth ;
     H = window.innerHeight ;
     
-    canvas = $("#canvas").get(0); //this "get(0) will pull the underlying non-jquery wrapped dom element from our selection
+    canvas = $("#grey").get(0); //this "get(0) will pull the underlying non-jquery wrapped dom element from our selection
     canvas.width = W;
     canvas.height = H;
 
