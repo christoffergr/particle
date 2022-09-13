@@ -44,7 +44,7 @@ $(function () {
         //using hsl is easier when we need particles with similar colors
         this.h=parseInt(0);
         this.s=parseInt(0);
-        this.l=parseInt(60);
+        this.l=parseInt(40);
         this.a=0.4*Math.random() ;
       
         this.color = "hsla("+ this.h +","+ this.s +"%,"+ this.l +"%,"+(this.a)+")";
